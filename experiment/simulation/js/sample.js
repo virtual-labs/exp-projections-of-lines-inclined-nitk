@@ -10,6 +10,7 @@ function navNext() {
   document.getElementById("canvas0").style.visibility = "hidden";
   document.getElementById("hhhh").style.visibility = "hidden";
   document.getElementById("a").style.visibility = "visible";
+  document.getElementById("a").addEventListener("click", a);
   document.getElementById("aa").style.visibility = "visible";
   document.getElementById("b").style.visibility = "hidden";
   document.getElementById("bb").style.visibility = "hidden";
@@ -26,6 +27,7 @@ function navNext() {
 }
 
 function hhhh() {
+  document.getElementById("hhhh").removeEventListener("click", hhhh);
   document.getElementById("pumptext").style.visibility = "visible";
   document.getElementById("text").innerText = "Extend a";
   document.getElementById("stepnumber").innerHTML = "&nbsp;1&nbsp;";
@@ -33,28 +35,36 @@ function hhhh() {
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
+  ctx.arc(265, 250, 3, 0, 2 * Math.PI, false);
+  ctx.fill();
   ctx.moveTo(300, 200);
   ctx.lineTo(250, 271);
   ctx.stroke();
   document.getElementById("h").style.animation = "glowing 1000ms infinite";
+  document.getElementById("h").addEventListener("click", ha);
   document.getElementById("hhhh").style.visibility = "hidden";
   document.getElementById("text").style.left = "94px";
 }
 
 function ha() {
+  document.getElementById("h").removeEventListener("click", ha);
   document.getElementById("h").style.animation = "none";
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   document.getElementById("text").innerText = "Extend a'";
   document.getElementById("stepnumber").innerHTML = "&nbsp;2&nbsp;";
   ctx.beginPath();
+  ctx.arc(250, 250, 3, 0, 2 * Math.PI, false);
+  ctx.fill();
   ctx.moveTo(300, 300);
   ctx.lineTo(250, 250);
   ctx.stroke();
   document.getElementById("v").style.visibility = "visible";
   document.getElementById("v").style.animation = "glowing 1000ms infinite";
+  document.getElementById("v").addEventListener("click", v);
 }
 function v() {
+  document.getElementById("v").removeEventListener("click", v);
   document.getElementById("v").style.animation = "none";
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
@@ -62,15 +72,30 @@ function v() {
     "Draw a perpendicular to join to the plane";
   document.getElementById("stepnumber").innerHTML = "&nbsp;3&nbsp;";
   ctx.beginPath();
+  ctx.arc(250, 271, 3, 0, 2 * Math.PI, false);
+  ctx.fill();
   ctx.moveTo(250, 271);
   ctx.lineTo(250, 250);
   ctx.stroke();
+  ctx.closePath();
   ctx.beginPath();
+  ctx.moveTo(250, 93);
+  ctx.lineTo(250, 370);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.arc(265, 265, 3, 0, 2 * Math.PI, false);
+  ctx.fill();
   ctx.moveTo(265, 250);
   ctx.lineTo(265, 265);
+  ctx.closePath();
+  ctx.beginPath();
+  ctx.moveTo(265, 93);
+  ctx.lineTo(265, 370);
   ctx.stroke();
-  ctx.fillText("HT", 220, 262);
-  ctx.fillText("VT", 275, 262);
+  ctx.closePath();
+  ctx.font = "14px comic sans MS";
+  ctx.fillText("HT", 220, 270);
+  ctx.fillText("VT", 275, 270);
 }
 function boom() {
   var canvas = document.getElementById("can");
@@ -110,6 +135,7 @@ function boom() {
 }
 
 function a() {
+  document.getElementById("a").removeEventListener("click", a);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
@@ -136,8 +162,10 @@ function a() {
   document.getElementById("reset").style.visibility = "visible";
   document.getElementById("a").style.animation = "none";
   document.getElementById("aa").style.animation = "glowing 800ms infinite";
+  document.getElementById("aa").addEventListener("click", b);
 }
 function b11() {
+  document.getElementById("b11").removeEventListener("click", b11);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
@@ -150,8 +178,10 @@ function b11() {
   document.getElementById("stepnumber").innerHTML = "&nbsp;3&nbsp;";
   document.getElementById("b11").style.animation = "none";
   document.getElementById("b1").style.animation = "glowing 1000ms infinite";
+  document.getElementById("b1").addEventListener("click", b1);
 }
 function b2() {
+  document.getElementById("b2").removeEventListener("click", b2);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
@@ -165,8 +195,10 @@ function b2() {
   document.getElementById("b22").style.visibility = "visible";
   document.getElementById("b2").style.animation = "none";
   document.getElementById("b22").style.animation = "glowing 1000ms infinite";
+  document.getElementById("b22").addEventListener("click", b22);
 }
 function b1() {
+  document.getElementById("b1").removeEventListener("click", b1);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
@@ -178,8 +210,10 @@ function b1() {
   document.getElementById("b").style.visibility = "visible";
   document.getElementById("b1").style.animation = "none";
   document.getElementById("b").style.animation = "glowing 1000ms infinite";
+  document.getElementById("b").addEventListener("click", bb);
 }
 function b22() {
+  document.getElementById("b22").removeEventListener("click", b22);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
@@ -191,8 +225,10 @@ function b22() {
   document.getElementById("stepnumber").innerHTML = "&nbsp;7&nbsp;";
   document.getElementById("b22").style.animation = "none";
   document.getElementById("bb").style.animation = "glowing 1000ms infinite";
+  document.getElementById("bb").addEventListener("click", bbb);
 }
 function b() {
+  document.getElementById("aa").removeEventListener("click", b);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
@@ -214,8 +250,10 @@ function b() {
   ctx.fillText("Locus of b", 500, 370);
   document.getElementById("aa").style.animation = "none";
   document.getElementById("b11").style.animation = "glowing 1000ms infinite";
+  document.getElementById("b11").addEventListener("click", b11);
 }
 function bbb() {
+  document.getElementById("bb").removeEventListener("click", bbb);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
@@ -239,9 +277,11 @@ function bbb() {
     document.getElementById("hhhh").style.visibility = "visible";
     document.getElementById("hhhh").style.animation = "glowing 1000ms infinite";
   }, 2000);
+  document.getElementById("hhhh").addEventListener("click", hhhh);
 }
 
 function bb() {
+  document.getElementById("b").removeEventListener("click", bb);
   var canvas = document.getElementById("can");
   var ctx = canvas.getContext("2d");
   ctx.beginPath();
@@ -259,4 +299,5 @@ function bb() {
   document.getElementById("stepnumber").innerHTML = "&nbsp;5&nbsp;";
   document.getElementById("b").style.animation = "none";
   document.getElementById("b2").style.animation = "glowing 1000ms infinite";
+  document.getElementById("b2").addEventListener("click", b2);
 }
