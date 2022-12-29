@@ -1,1 +1,1 @@
-To draw projections of Line inclined with both VP and HP
+To draw projections of Line inclined with both VP and HP and trace it.
