@@ -10,10 +10,10 @@
         "d": "Both are not related"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "Correct, the right answer is (a).  The true length and the apparent length of an object can be the same in certain cases. This typically happens when you’re viewing the object directly along its length. In technical terms, this occurs when the line of sight is perpendicular to the plane containing the object.",
+        "b": "The right answer is (a). The true length will be similar as apparent length when you’re viewing the object directly along its length.  However, if the object is viewed at an angle, the apparent length will generally be shorter than the true length.",
+        "c": "The right answer is (a). We can say this is true when you’re viewing the object directly along its length.",
+        "d": "The right answer is (a). They both are related. True length and apparent length refer to the actual length of an object and how that length appears when projected onto a plane, respectively. The relationship between true length and apparent length is determined by the angle at which an object is viewed."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -27,12 +27,12 @@
         "d": "Both are not related"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (c). It’s not accurate to say that the apparent length will always be bigger than the true length. It could be equal to, shorter than, or longer than the true length, depending on the circumstances.",
+        "b": "The right answer is (c). If the object is viewed at an angle, the apparent length will generally be shorter than the true length.",
+        "c": "Correct, the right answer is (c). It could be equal to, shorter than, or longer than the true length, depending on the circumstances and observation at specific angle..",
+        "d": "The right answer is (c). They both are related. True length and apparent length refer to the actual length of an object and how that length appears when projected onto a plane, respectively. The relationship between true length and apparent length is determined by the angle at which an object is viewed."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "intermediate"
     },
     {
@@ -44,10 +44,10 @@
         "d": "None of these"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (c). b1 is considered as a point of original line.",
+        "b": "The right answer is (c).",
+        "c": "Correct, the right answer is (c). The locus of point B in front view is b'.",
+        "d": "The right answer is (c)."
       },
       "correctAnswer": "c",
       "difficulty": "intermediate"
@@ -61,10 +61,10 @@
         "d": "Both are not related"
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). If a line is parallel to a plane, it will not intersect that plane, and therefore, it will not have a trace on that plane. So, It hasn't have both traces.",
+        "b": "Correct, the right answer is (b). If a line is parallel to one plane (say, the horizontal plane) and perpendicular to another plane (say, the vertical plane), it will have a trace on the vertical plane but not on the horizontal plane. ",
+        "c": "The right answer is (b). We can say it won't have both traces. If a line is parallel to one plane (say, the horizontal plane) and perpendicular to another plane (say, the vertical plane), it will have a trace on the vertical plane but not on the horizontal plane.",
+        "d": "The right answer is (b). A trace is the point where a line intersects a plane. If a line is parallel to a plane, it will not intersect that plane, and therefore, it will not have a trace on that plane. However, if a line is perpendicular to a plane, it will intersect that plane at a single point, which is its trace on that plane."
       },
       "correctAnswer": "b",
       "difficulty": "advanced"
@@ -78,12 +78,12 @@
         "d": "Line of length less than the given line."
       },
       "explanations": {
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": ""
+        "a": "The right answer is (b). If the line is perpendicular to V.P. then, the front view would be a point.",
+        "b": "Correct, the right answer is (b). When a line is perpendicular to one plane (HP) and parallel to another plane (VP), The projection of the line on the plane to which it is parallel will show its true length. Therefore, the front view on the V.P will be the line of the same length, perpendicular to HP.",
+        "c": "The right answer is (b). If the line is inclined at HP and parallel to or situated at VP, then its front view will be the line of the same length inclines at some angle to the horizontal plane.",
+        "d": "The right answer is (b). If the line is inclined at VP and parallel to or situated at HP, then its front view will be the line of length less than the given line."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "advanced"
     }
   ]

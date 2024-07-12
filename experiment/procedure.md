@@ -1,26 +1,21 @@
+### Procedure
 
-1)  .Click on **“Projection of Line”** the following window will open.
-    Click on the **NEXT** button to proceed.
+<div style="text-align:left">
+  Click on the Objective icon <img src="images/objecticon.png" alt="Alt text" style="height:80px; width:80px;">  to view the objective of the simulation. 
 
-![](./images/image1.png)
+   ![Alt text](images/objectscreen.png)
+   
+  Click on the Apparatus icon <img src="images/apparatus-icon.png" alt="Alt text" style="height:80px; width:80px;">  to check the tools required for this simulation.
 
-2)  .Click on **a’** for next step of construction. Follow the
-    same.(**a’\<\<a\<\<b1’\<\<b1\<\<b\<\<b2\<\<b2’\<\<b’**)
+   ![Alt text](images/appratus_screen.png)
 
-![2](./images/image7.png)
+  Click on the Solution icon <img src="images/solutions-icon.png" alt="Alt text" style="height:80px; width:80px;"> to proceed with further simulation steps.
 
-![](./images/image2.png)
+   ![Alt text](images/solution_screen.png)
 
-3)  .After completion of the first part, click on **TRACES** for the
-    next part.
+  Evaluate and choose the correct answer to proceed with further steps, click on the next button <img src="images/nextButton-icon.png" alt="Alt text" style="height:80px; width:80px;">
 
-![10](./images/image5.png)
 
-4)  .Click on **h** next step to continue.Follow the same(**h\<\<v**).
+  After performing the experiment, click on the Reset button <img src="images/resetButton-icon.png" alt="Alt text" style="height:80px; width:80px;"> to restart the experiment.
 
-![11](./images/image3.png)
-
-5)  .Finally, the whole drawing is complete. And to again start with the
-    initial step click on the **Reset** button.
-
-![13](./images/image4.png)
+</div>
