@@ -14,4 +14,4 @@
 
 4. Evaluate and choose the correct answer to proceed with further steps, click on the next button <img src="images/nextButton-icon.png" alt="Alt text">
 
-After performing the experiment, click on the Reset button <img src="images/resetButton-icon.png" alt="Alt text"> to restart the experiment.
+5. After performing the experiment, click on the Reset button <img src="images/resetButton-icon.png" alt="Alt text"> to restart the experiment.
