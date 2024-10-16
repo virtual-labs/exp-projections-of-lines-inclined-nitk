@@ -27,12 +27,12 @@
         "d": "Both are not related"
       },
       "explanations": {
-        "a": "The right answer is (c). It’s not accurate to say that the apparent length will always be bigger than the true length. It could be equal to, shorter than, or longer than the true length, depending on the circumstances.",
-        "b": "The right answer is (c). If the object is viewed at an angle, the apparent length will generally be shorter than the true length.",
-        "c": "Correct, the right answer is (c). It could be equal to, shorter than, or longer than the true length, depending on the circumstances and observation at specific angle..",
-        "d": "The right answer is (c). They both are related. True length and apparent length refer to the actual length of an object and how that length appears when projected onto a plane, respectively. The relationship between true length and apparent length is determined by the angle at which an object is viewed."
+        "a": "The right answer is (b). It’s not accurate to say that the apparent length will always be bigger than the true length. It could be equal to, shorter than, or longer than the true length, depending on the circumstances.",
+        "b": "Correct, the right answer is (b). If the object is viewed at an angle, the apparent length will generally be shorter than the true length.",
+        "c": "The right answer is (b). If the object is viewed at an angle, the apparent length will generally be shorter than the true length.",
+        "d": "The right answer is (b). They both are related. True length and apparent length refer to the actual length of an object and how that length appears when projected onto a plane, respectively. The relationship between true length and apparent length is determined by the angle at which an object is viewed."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
@@ -83,7 +83,7 @@
         "c": "The right answer is (b). If the line is inclined at HP and parallel to or situated at VP, then its front view will be the line of the same length inclines at some angle to the horizontal plane.",
         "d": "The right answer is (b). If the line is inclined at VP and parallel to or situated at HP, then its front view will be the line of length less than the given line."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "advanced"
     }
   ]

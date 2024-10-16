@@ -27,7 +27,7 @@ plane.
   - When the line parallel to both HP & VP, there will be no trace on
     the said planes.
 
-    When a line is inclined to both HP and VP,  the  apparent  inclination of the line to both the projection planes will be different from the actual inclinations. Similarly the projected length of the lines on to the planes will not be the same as the true length f the line. The following notation will be used for the inclinations and length of the lines for this entire lecture series:
+    When a line is inclined to both HP and VP,  the  apparent  inclination of the line to both the projection planes will be different from the actual inclinations. Similarly the projected length of the lines on to the planes will not be the same as the true length of the line. The following notation will be used for the inclinations and length of the lines for this entire lecture series:
 
     Actual inclinations are θ degrees to HP  and  φ degrees to VP.
     Apparent Inclinations are a and b to HP and VP respectively.
