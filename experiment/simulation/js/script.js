@@ -373,8 +373,8 @@ function nameAxis() {
 }
 
 function nameVPHP() {
-  ctx.fillText("HP", 69, 243);
-  ctx.fillText("VP", 69, 270);
+  ctx.fillText("VP", 69, 243);
+  ctx.fillText("HP", 69, 270);
   btnVPHP.classList.add("hide");
   nextQuestion();
 }
