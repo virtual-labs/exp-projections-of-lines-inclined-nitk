@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Traces are defined as points at which line or produced line meets the HP or VP.",
+      "answers": {
+        "a": "True",
+        "b": "False",
+        "c": "Can't say",
+        "d": "Both are not related"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a).The point of intersection of the line with the HP is called the horizontal trace and The point of intersection of the line with the VP is called the vertical trace.",
+        "b": "The right answer is (a). Traces are defined as points at which line or produced line meets the HP or VP but not both.",
+        "c": "The right answer is (a). We can say its true. The point of intersection of the line with the HP is called the horizontal trace and The point of intersection of the line with the VP is called the vertical trace.",
+        "d": "The right answer is (a). Traces are defined as points at which line or produced line meets the HP or VP. The point of intersection of the line with the HP is called the horizontal trace and The point of intersection of the line with the VP is called the vertical trace."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For line parallel to VP and perpendicular to HP",
+      "answers": {
+        "a": "HT will exist",
+        "b": "VT will exist",
+        "c": "Both exists",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). If a line is parallel to VP and perpendicular to HP, then the line will intersect with HP, therefore creating Horizontal Trace(HT).",
+        "b": "The right answer is (a). If a line is parallel to HP and perpendicular to VP, then the line will intersect with VP, therefore creating Vertical Trace(VT).",
+        "c": "The right answer is (a). A line can have both a horizontal trace and a vertical trace at the same time. This happens when the line is inclined to both the horizontal plane (HP) and the vertical plane (VP).",
+        "d": "The right answer is (a). For line parallel to VP and perpendicular to HP, HT will exist."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A line inclined to VP and parallel to HP will have its Front view",
+      "answers": {
+        "a": "Of shorter length",
+        "b": "Bigger Length",
+        "c": "Equal Length",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a). If the line is inclined at VP and parallel to or situated at HP, then its front view will be the line of length less than the given line.",
+        "b": "The right answer is (a). If the line is inclined at HP and parallel to or situated at VP, then its front view will be the line of length larger than the given line.",
+        "c": "The right answer is (a). When a line is perpendicular to one plane and parallel to another plane, The projection of the line on the plane to which it is parallel will show its true length. Therefore, the front view will be the line of the same length.",
+        "d": "The right answer is (a). If the line is inclined at VP and parallel to or situated at HP, then its front view will be the line of length less than the given line."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A line inclined to both VP & HP, and parallel to PP, its true length will observe in",
+      "answers": {
+        "a": "Front View",
+        "b": "Side View",
+        "c": "Top View",
+        "d": "None of these"
+      },
+      "explanations": {
+        "a": "The right answer is (b). If a line inclined to both PP & HP, and parallel to VP, its true length will observe in front view according to the principle of orthographic projection.",
+        "b": "Correct, the right answer is (b). The reason behind this is the principle of orthographic projection. In orthographic projection, the true length of a line is seen on the plane to which it is parallel. Since the line in question is parallel to the PP, its true length is represented in the Side View, which is the view on the PP.",
+        "c": "The right answer is (b).  If a line inclined to both PP & VP, and parallel to HP, its true length will observe in top view according to the principle of orthographic projection.",
+        "d": "The right answer is (b). If a line inclined to both HP & VP, and parallel to PP, its true length will observe in side view according to the principle of orthographic projection."
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "If a line RS lies on both vertical and horizontal planes then which of the following two views coincides to give a line again?",
+      "answers": {
+        "a": "Front, Top",
+        "b": "Top, Side",
+        "c": "Side, Isometric",
+        "d": "Isometric, Front"
+      },
+      "explanations": {
+        "a": "Correct, the right answer is (a).  Isometric view is that the three dimensions of a solid are not only shown in one view. Here given the line is present in vertical and horizontal plane so the line will coincide in the front view and top view.",
+        "b": "The right answer is (a). If a line RS lies on both HP and PP, then Top and side view coincides to give a line again. ",
+        "c": "The right answer is (a). Even though a line lies on both the vertical and horizontal planes, its isometric view will not coincide with the side view due to the different angles and scale factors used in isometric projection.",
+        "d": "The right answer is (a). Even though a line lies on both the vertical and horizontal planes, its isometric view will not coincide with the front view due to the different angles and scale factors used in isometric projection."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}
